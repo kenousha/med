@@ -30,18 +30,18 @@ const Navbar = () => {
         
         <ul className="nav__links active">
           <li className="link">
-            <Link to="../Landing_Page/LandingPage.html">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li className="link">
             <Link to="#">Appointments</Link>
           </li>
           <li className="link">
-            <Link to="../Sign_Up//Sign_Up.html">
+            <Link to="../Sign_Up//Sign_Up.js">
               <button className="btn1">Sign Up</button>
             </Link>
           </li>
           <li className="link">
-            <Link to="../Login/Login.html">
+            <Link to="../Login/Login.js">
               <button className="btn1">Login</button>
             </Link>
           </li>

@@ -1,8 +1,8 @@
-import React from "react"; // Importing the necessary modules from React library
-import { Link } from "react-router-dom"; // Importing the Link component from react-router-dom library
-import "./LandingPage.css"; // Importing the CSS styles for the Landing_Page component
+import React from "react"; 
+import { Link } from "react-router-dom";
 
-// Defining the Function component Landing_Page
+import "./Landing_Page.css";
+
 const Landing_Page = () => {
   return (
     <section className="hero-section"> {/* Creating a section with class name 'hero-section' */}
@@ -26,8 +26,8 @@ const Landing_Page = () => {
             <h4>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque at quae ducimus. Suscipit omnis quibusdam non cum rem voluptatem!
             </h4>
-            <Link to="#services"> {/* Creating a hyperlink to jump to the 'services' section */}
-              <button className="button">Get Started</button> {/* Creating a button with class name 'button' */}
+            <Link to="#"> 
+              <button className="button">Get Started</button>
             </Link>
         </div>
       </div>
@@ -35,4 +35,4 @@ const Landing_Page = () => {
   );
 };
 
-export default Landing_Page; // Exporting the Landing_Page component to be used in other parts of the application
+export default Landing_Page;
