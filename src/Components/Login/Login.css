@@ -1,9 +1,8 @@
 /* Styles for the main container */
 .container {
-    max-width: 900px; /* Maximum width of the container */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 40px; /* Padding inside the container */
-    margin-top: 10%; /* Top margin of 10% */
+    max-width: 20%; /* Maximum width of the container */
+    margin: 5% auto; /* Center the container horizontally */
+    overflow: hidden;
 }
 
 /* Styles for form groups */
@@ -38,7 +37,7 @@
     padding: 10px 20px; /* Padding inside buttons */
     font-size: 16px; /* Font size of buttons */
     border: none; /* No border for buttons */
-    border-radius: 4px; /* Border radius for rounded corners on buttons */
+    border-radius: 20px; /* Border radius for rounded corners on buttons */
     cursor: pointer; /* Cursor style on hover for buttons */
 }
 
